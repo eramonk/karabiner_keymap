@@ -1,0 +1,27 @@
+{
+    "title": "",
+    "rules": [
+      {
+        "description": "backspace",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "modifiers": {
+                "mandatory": [
+                  "left_control"
+                ]
+              },
+              "key_code": "semicolon"
+            },
+            "to": [
+              {
+                "repeat": true,
+                "key_code": "delete_or_backspace"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
